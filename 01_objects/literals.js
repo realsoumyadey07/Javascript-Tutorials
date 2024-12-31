@@ -1,4 +1,4 @@
-//simple object creation using literal
+//simple object creation using object literal
 const car = {
      type: "Fiat",
      model: "500",
@@ -47,4 +47,4 @@ const myArr3 = Object.entries(nasted);
 //JavaScript objects can be converted to a string with JSON method JSON.stringify()
 const myStr = JSON.stringify(nasted);
 
-console.log(myArr2);
+console.log(myArr3);
