@@ -1,0 +1,9 @@
+Execution Context: 
+    Every time we write js code, an execution context is created. It has two components, one is Variable Environment or Variable Component where every Variable, const, function get initiated and another is Code Component where all code is executed in a thread.
+how it works:
+    The execution of the js code has two phases:
+        1. Memory Allocation Phase:
+            After creation of an execution context all Variables get a value of undefined and all functions code get copied over here in this Phase.
+        2. Code Execution Phase:
+            In this phase all code get executed and if there is a function in the code execution then a new execution context is created and the process we discussed will be executing again.
+
