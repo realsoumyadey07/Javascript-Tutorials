@@ -7,3 +7,6 @@ how it works:
         2. Code Execution Phase:
             In this phase all code get executed and if there is a function in the code execution then a new execution context is created and the process we discussed will be executing again.
 
+Call Stack:
+    Every time while running a js code a call stack is created in js engine. And whenever a new function invoked and a new execution context created, it gose to the stack accordingly. That's how it keeps track on execution contexts.
+    "Callstack maintains the order of execution of execution context".
