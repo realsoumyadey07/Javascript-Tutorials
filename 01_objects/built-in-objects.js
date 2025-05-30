@@ -26,3 +26,9 @@ fruits.forEach(i=> {
     console.log(i);
 })
 
+// Map
+const myMap = new Map([["name", "soumya"], ["age", 23]])
+console.log(myMap);
+myMap.set("national", "Indian");
+console.log(myMap.get("name"));
+
